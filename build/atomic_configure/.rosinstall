@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/arshia/catkin_ws/src/viana_manipulator/build/devel/setup.sh

@@ -1,0 +1,7 @@
+<launch>
+    <node respawn="false" pkg="joy" type="joy_node" name="joynode">
+            <!-- <param name="autorepeat_rate" type="double" value="100" /> -->
+    </node>
+    
+    <node pkg="viana_manipulator" type="node.py" name="arm"> </node>
+</launch>
